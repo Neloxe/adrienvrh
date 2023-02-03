@@ -1,25 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable no-tabs */
+import './App.css'
+import React from 'react'
+import { COLORS } from './exports/Colors'
+import { SIZE } from './exports/Size'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App () {
+	return (
+		<div style={styles.global}>
+			<div>
+				<div style={{ flexDirection: 'row' }}>
+					<div style={styles.box1}>
+					</div>
+					<div style={{ height: 25, width: '100vw', backgroundColor: COLORS.green }}></div>
+					<div style={styles.box1}>
+					</div>
+				</div>
+			</div>
+		</div>
+	)
 }
 
-export default App;
+const styles = {
+	global: {
+		fontFamily: 'JackR',
+		fontSize: SIZE.xl * 2,
+		width: '100vw',
+		height: '100vh',
+		backgroundColor: COLORS.black,
+		display: 'flex',
+		alignContent: 'center',
+		justifyContent: 'center',
+		textAlign: 'center',
+		alignItems: 'center',
+		padding: 0,
+		margin: 0
+	},
+	box1: {
+		borderRadius: 25,
+		width: '70vw',
+		height: '30vh',
+		backgroundColor: COLORS.white,
+		padding: 10
+	},
+	text: {
+		color: COLORS.white
+	}
+}
+
+export default App

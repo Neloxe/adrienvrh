@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'JetBrainsR';
+  src: local('JetBrainsR'), url(./fonts/JetBrainsMono-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SfProR';
+  src: local('SfProR'), url(./fonts/SFPRODISPLAYREGULAR.OTF) format('truetype');
+}
+
+@font-face {
+  font-family: 'SfProM';
+  src: local('SfProM'), url(./fonts/SFPRODISPLAYMEDIUM.OTF) format('truetype');
+}
+
+@font-face {
+  font-family: 'SfProB';
+  src: local('SfProB'), url(./fonts/SFPRODISPLAYBOLD.OTF) format('truetype');
+}
+
+@font-face {
+  font-family: 'JackR';
+  src: local('JackR'), url(./fonts/PlusJakartaSans-VariableFont_wght.ttf) format('truetype');
+}
