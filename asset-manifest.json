@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Neloxe/adrienvrh/static/css/main.c4bd464d.css",
+    "main.js": "/Neloxe/adrienvrh/static/js/main.bc621042.js",
+    "static/js/787.4917b094.chunk.js": "/Neloxe/adrienvrh/static/js/787.4917b094.chunk.js",
+    "static/media/SFPRODISPLAYMEDIUM.OTF": "/Neloxe/adrienvrh/static/media/SFPRODISPLAYMEDIUM.b85d841dacb040b84951.OTF",
+    "static/media/SFPRODISPLAYBOLD.OTF": "/Neloxe/adrienvrh/static/media/SFPRODISPLAYBOLD.b1f4d2c69fa808ebca12.OTF",
+    "static/media/SFPRODISPLAYREGULAR.OTF": "/Neloxe/adrienvrh/static/media/SFPRODISPLAYREGULAR.d1f5e6e16dd4f75c3950.OTF",
+    "static/media/JetBrainsMono-Regular.ttf": "/Neloxe/adrienvrh/static/media/JetBrainsMono-Regular.93b40005892466035ab0.ttf",
+    "static/media/PlusJakartaSans-VariableFont_wght.ttf": "/Neloxe/adrienvrh/static/media/PlusJakartaSans-VariableFont_wght.ae47e4d01757abf8ad63.ttf",
+    "index.html": "/Neloxe/adrienvrh/index.html",
+    "main.c4bd464d.css.map": "/Neloxe/adrienvrh/static/css/main.c4bd464d.css.map",
+    "main.bc621042.js.map": "/Neloxe/adrienvrh/static/js/main.bc621042.js.map",
+    "787.4917b094.chunk.js.map": "/Neloxe/adrienvrh/static/js/787.4917b094.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4bd464d.css",
+    "static/js/main.bc621042.js"
+  ]
+}
